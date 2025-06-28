@@ -18,7 +18,7 @@
 }
 
 .sidebar .new-chat {
-    margin-top: 10px;
+    margin-top: 50px;
     display: inline-flex;
     align-items: center;
     gap : 10px;
@@ -28,4 +28,39 @@
     font-size: 15px;
     color : gray;
     cursor: pointer;
+}
+
+.sidebar .recent {
+    display : flex;
+    flex-direction: column;
+}
+
+.sidebar .recent-title {
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.sidebar .recent-entry {
+    display: flex;
+    align-items: start;
+    gap : 10px;
+    padding : 10px;
+    padding : 10px;
+    padding-right : 40px;
+    color : #282828;
+   
+}
+
+.sidebar .recent-entry:hover {
+ background-color: #e2e6eb;
+ cursor: pointer;
+}
+
+.sidebar .bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .bottom-item {
+    padding-right: 10px;
 }
